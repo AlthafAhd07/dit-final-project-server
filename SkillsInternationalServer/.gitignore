@@ -1,0 +1,48 @@
+# Build output
+bin/
+obj/
+
+# User-specific files (Visual Studio)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (JetBrains Rider)
+*.DotSettings.user
+
+# Package and project configuration
+packages/
+*.lock.json
+
+# IDE-specific files (Visual Studio)
+.vs/
+*.pidb
+*.opendb
+
+# IDE-specific files (JetBrains Rider)
+.idea/
+*.sln.iml
+*.csproj.DotSettings
+
+# Logs and temporary files
+Logs/
+*.log
+*.txt
+
+# Secrets and sensitive data
+appsettings*.Production.json
+appsettings*.Staging.json
+
+# Publishing output
+publish/
+
+# Dependency directories (if using client-side libraries)
+ClientApp/node_modules
+
+# Docker-related files (if applicable)
+.dockerignore
+Dockerfile.*
+
+# NuGet local cache
+%USERPROFILE%\.nuget\packages
